@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="qtrecognition2.BaseTest" />
+			<class name="qtrecognition2.LoginTest" />
+			<class name="qtrecognition2.TestColor" />
+			<class name="qtrecognition2.ActivityPage" />
+			<class name="qtrecognition2.SendKudos" />
+			<class name="qtrecognition2.KudosSearch" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
